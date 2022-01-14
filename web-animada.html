@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Shigeo Fukuda</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="container">
+        <header>
+          <h1>福田 SHIGEO FUKUDA 繁雄</h1>
+        </header>
+
+            <ul>
+                <li class="runButton"><a href="#1">BIOGRAFIA</a></li>
+                <li><a href="#2">CARTELES</a></li>
+                <li><a href="#3">ESCULTURAS</a></li>
+                <li class="button"><a href="#4">PREMIOS</a></li>
+            </ul>
+
+  
+        <!--BIOGRAFÍA-->
+           <h2 id="1">BIOGRAFÍA</h2>
+             <img src="https://unlp.edu.ar//frontend/media/63/1963/big_36066b385e3234d402fea53cd4af747a.jpg" class="foto-dr"> 
+            <p class="bio" id="bio">Shigeo Fukuda fue un escultor, diseñador gráfico y maestro de cartelería, que nació el 4 de febrero de 1932 en Tokio y falleció el 11 de enero de 2009.<br>
+              <br>
+              Creció en una familia dedicada a la fabricación de juguetes y su infancia se vio afectada por la Segunda Guerra Mundial y cuando esta llegó a su fin, entró a la Universidad Nacional de Bellas Artes y Música de Tokio, graduándose en 1956. Trabajó como profesor en la misma universidad entre 1973 y 2002, y en el Departamento de Diseño Gráfico de la Universidad de Yale en 1982 y 1984.<br>
+              <br>
+              Muchas de sus obras hacen referencia a la guerra y demuestran su carácter pacifista. En sus carteles experimenta con ilusiones ópticas, el volumen, el origami y utiliza un estilo gráfico muy marcado con ilustraciones en negro sobre fondos de colores.<br>
+              <br>
+              En 1967 es reconocido internacionalmente por primera vez cuando su trabajo es seleccionado como Cartel Oficial de la Exposición de Japón 70.
+              <br>
+            </p>>
+
+            <script>
+              function play() {
+          document.querySelector(".bio").className = "bio";
+          window.requestAnimationFrame(function(time) {
+          window.requestAnimationFrame(function(time) {
+          document.querySelector(".bio").className = "bio changing";
+          });
+          });
+          }
+          
+          document.querySelector(".runButton").addEventListener("click", play, false);
+          
+          </script>
+
+        <!--CARTELES-->
+        <h3 id="2">CARTELES</h3>
+        <img src="http://www.spoon-tamago.com/wp-content/uploads/2015/07/shigeo-fukuda-victory.jpg" class="victory">
+        <!--<p class="victory-p" style="align-self: initial;"> Victory 1945 (1975)</p>-->
+        <img src="https://www.graphicart-news.com/wp-content/uploads/2014/07/human-rights-shigeo-fukuda-1989.jpg" class="humanrights">
+        <!--<p class="hr-p">Human Rights (1989)</p>-->
+        <img src="https://i.pinimg.com/736x/2e/d9/0f/2ed90f878098382a85bbd841cf9582c5.jpg" class="hiroshima">
+        <!--<p class="hiroshima-p">Hiroshima-Nagasaki, 50 years (1995)</p>-->
+        <img src="https://64.media.tumblr.com/tumblr_lf4exfhyPc1qaz1ado1_1280.jpg" class="self-defense">
+        <!--<p class="sf-p">Self Defense (1974)</p>-->
+        <img src="http://www.spoon-tamago.com/wp-content/uploads/2015/07/shigeo-fukuda-amnesty.jpg" class="amnesty">
+        <!--<p class="amnesty-p">Amnesty International (1975)</p>-->
+        <img src="http://www.spoon-tamago.com/wp-content/uploads/2015/07/Shigeo-Fukuda-No-More-War-1968.jpg" class="no-more">
+        <!--<p class="nm-p">No More (1968)</p>-->
+
+
+        <!--ESCULTURAS-->
+        <h4 id="3">ESCULTURAS</h4>
+         <img src="http://2.bp.blogspot.com/-t3JDb_pVgSU/UvEtCYZJuPI/AAAAAAAAPlA/KtmDt10Amkw/s1600/fukuda-lunch.jpg" class="lunch">
+          <!--<div class="text">Lunch With a Helmet On (1987)</div>-->
+        <img src="https://www.nipponconnection.fr/wp-content/uploads/2015/08/031.jpg" class="bonjour">
+        <!--<p class="b-p">Bonjour, Mademoiselle (1982)</p>-->
+        <img src="https://i.pinimg.com/originals/27/1b/ba/271bbababeb3765ca2c78cfa768c6f23.jpg" class="aquarium">
+        <!--<p class="a-p">Aquarium for Swimming Characters (1988)</p>-->
+        <img src="https://i.pinimg.com/originals/27/f6/50/27f65006d2d6546d6078b4ff8dbb1638.jpg" class="duets">
+        <!--<p class="d-p">Duets</p>-->
+
+        <!--PREMIOS--> 
+          <h5 id="4">PREMIOS</h5>
+          <p class="premios">Exposiciones Bienales Internacionales de Carteles (Varsovia, Colorado, Brno, Lahti y Moscú)
+            <br>
+            Ingreso en el Salón de la Fama del CAD de Nueva York
+            <br>           
+            Gran Premio de la Exposición Bienal Internacional de Carteles de Helsinki
+            <br>          
+            Gran Premio Savignac
+            <br>          
+            Premio UNESCO
+            <br>          
+            Premio del Maestro de la SVA de Nueva York
+            <br>           
+            Premio de Diseño de Mainichi y la Mención Especial para Jóvenes Artistas
+            <br>           
+            Premio de Arte de Mainichi
+            <br>            
+            Premio Yamana de la JAAC
+            <br>            
+            Premio de Diseño del MITI por Servicios Distinguidos
+            <br>           
+            Medalla de la Cinta Púrpura
+            <br>
+            Premios por Servicios Distinguidos de la Prefectura de Iwate y de la ciudad de Nonohe</p>
+
+            <script>
+              function play() {
+          document.querySelector(".premios").className = "premios";
+          window.requestAnimationFrame(function(time) {
+          window.requestAnimationFrame(function(time) {
+          document.querySelector(".premios").className = "premios subiendo";
+          });
+          });
+          }
+          
+          document.querySelector(".button").addEventListener("click", play, false);
+          
+          </script>
+
+        <p class="frase">
+          “Creo que en diseño es necesario un 30% de dignidad, un 20% de belleza y un 50% de absurdo”<br>
+          -Shigeo Fukuda
+        </p>
+
+      
+        
+
+        <!--FOOTER-->
+        <footer id="footer">Página web diseñada por Andrea Jiménez
+        </footer>
+
+    </div>
+      <script>
+        var mybutton = document.getElementById("myBtn");
+        
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>  
+</body>
+</html>
